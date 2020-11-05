@@ -7,5 +7,9 @@ describe Cypher do
       expect(subject.cypher("a",1)).to eq "b"
       expect(subject.cypher("a",4)).to eq "e"
     end
+
+    it '#cypher will return the coded result when input is two characters string and rotation is given' do
+      expect(subject.cypher("ab", 0)).to eq "ab"
+    end
   end
 end
