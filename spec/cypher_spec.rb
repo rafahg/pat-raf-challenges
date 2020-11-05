@@ -10,6 +10,7 @@ describe Cypher do
 
     it '#cypher will return the coded result when input is two characters string and rotation is given' do
       expect(subject.cypher("ab", 0)).to eq "ab"
+      expect(subject.cypher("ab", 1)).to eq "bc"
     end
   end
 end
