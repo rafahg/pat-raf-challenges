@@ -1,4 +1,4 @@
-## CAESAR FUCKING CHALLENGE.
+## CAESAR CHALLENGE.
 
   I want to build a program which accepts a string and an integer(rotation) and
   return the string codified.
